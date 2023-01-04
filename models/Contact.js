@@ -1,7 +1,7 @@
 const mongoose=require("mongoose")
 const { Schema } = mongoose;
 
-var ContactSchema=new Schema({
+const ContactSchema=new Schema({
     name:{
         type:String
     },
